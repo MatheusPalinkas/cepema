@@ -1,0 +1,22 @@
+.containerCard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 960px) {
+  .containerCard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.containerTitleEquipe {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.containerTextoEquipe {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1em;
+}

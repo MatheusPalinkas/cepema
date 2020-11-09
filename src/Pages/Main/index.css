@@ -1,0 +1,4 @@
+.cards-paginas {
+  display: flex;
+  flex-wrap: wrap;
+}
